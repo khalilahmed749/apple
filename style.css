@@ -40,13 +40,17 @@
   
   nav h1{
     font-size: 8;
-    margin-bottom: -10px;
+    
 
   }
   nav{
-    height:6rem;
+    height:8rem;
+    
   }
-
+nav a{
+  margin: 0.5rem;
+  padding: 5px 9px 0px 0px ;
+}
   .btn, .btn-two {
     padding: 10px 16px;
     font-size: 14px;
@@ -83,7 +87,7 @@
   h1 {
     font-size: 22px;
   }
-
+ 
   p {
     font-size: 14px;
   }
