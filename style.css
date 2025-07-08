@@ -1,0 +1,485 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 📱 Responsive CSS without changing your HTML */
+
+@media (max-width: 1024px) {
+  .main-sections {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mac, .education, .airpods {
+    width: 80%;
+    font-size: 20px;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  .macbook,
+  .container-box img,
+  .containertwo img,
+  .marq img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .column {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  nav h1{
+    font-size: 8;
+    margin-bottom: -10px;
+
+  }
+  nav{
+    height:6rem;
+  }
+
+  .btn, .btn-two {
+    padding: 10px 16px;
+    font-size: 14px;
+    margin: 5px;
+    width: 100%;
+    margin: 6px 0;
+    text-align: center;
+  }
+
+  .mac, .education, .airpods {
+    width: 100%;
+    height: auto;
+  }
+
+  .marq-main {
+  }
+
+  .marq {
+    display: inline-block;
+    margin-right: 10px;
+    width: 70%;
+  }
+
+  .footer-note {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .footer-legal{
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .btn, .btn-two {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  .footer-columns {
+    padding: 0 10px;
+  }
+
+  .column ul {
+    padding-left: 0;
+  }
+
+  .marq img {
+    width: 100%;
+    height: auto;
+  }
+
+  .macbook,
+  .container-box img,
+  .containertwo img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+  body,html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    color: black;
+    background: #fff;
+}
+section{
+    width: 100%;
+    padding: 80px 20px 100px;
+    position: relative;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+}
+nav{
+   position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 1rem 2rem;
+    font-weight: 100;
+    text-align: right;
+    z-index: 1000;
+    text-align: center;
+}
+nav a{
+  font-size: 14px;
+  color:black;
+    margin: 1rem;
+    text-decoration: none;
+    transition:color 0.3s;
+}
+nav i{
+  font-size: 18px;
+}
+/* body {
+ 
+} */
+#first-text{
+ margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  color: #000;
+   background: linear-gradient(to bottom, #eaf6ff, #ffffff);
+   height: 110vh;
+}
+.container {
+  padding: 60px 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background-color: #0077ed;
+  color: white;
+}
+
+.btn.outline {
+  border: 2px solid #0077ed;
+  color: #0077ed;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.macbook {
+  max-width: 30%;
+  height: auto;
+  margin: 40px auto;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #555;
+}
+
+.footer-text .apple {
+  color: #a259ff;
+  font-weight: 600;
+}
+#second-text-box{
+  background-image: url(./assets/auriculares-apple-airpods-pro-v3-2-gen-mqd83ty-a-12.jpg);
+  background-repeat: repeat;
+  background-size: 20%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.mac,.education,.airpods{
+  margin-top: 10px;
+}
+.mac{
+  font-size: 35px;
+  border-radius: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  height: 9rem;
+  width: 15rem;
+  background-color: blue;
+  margin: 20px 0px 0px 0px ;
+}
+.education{
+   font-size: 20px;
+  border-radius: 40px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  height: 3rem;
+  width: 15rem;
+  background-color: blue;
+}
+.airpods{
+   font-size: 35px;
+  border-radius: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  height: 12rem;
+  width: 15rem;
+  background-color: blue;
+}
+
+.buttontwo{
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-two{
+  border: 2px solid #0077ed;
+  color: #0077ed;
+   padding: 10px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+#third-text{
+ margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  color: #000;
+   background: whitesmoke;
+   height: 110vh;
+}
+.containertwo {
+  padding: 60px 20px;
+}
+
+.containertwo h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+ .containertwo {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+.containertwo img{
+  height: 20rem;
+  width: 30rem;
+}
+  .main-sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+#first-text, #second-text {
+  flex: 1;
+  background: linear-gradient(to bottom, #eaf6ff, #ffffff);
+  padding: 2rem;
+  height: 36rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container-box{
+  text-align: center;
+}
+#first-textone{
+   flex: 1;
+  background: black;
+  color: #fff;
+  padding: 2rem;
+  height: 36rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.container-box1{
+  text-align: center;
+}
+.container-box img{
+    height: 13rem;
+    width: 15rem;
+}
+.mark-main{
+  width: 100%;
+  height: 10rem;
+}
+.marq-main{
+  height: 15rem;
+  width: 100%;
+  background-color:#fff;
+  margin: 20px;
+}
+.marq{
+  height: 10rem;
+  width: 15rem;
+  display: inline-block;
+  ;
+}
+.marq img{
+  height: 15rem;
+  width: 13rem;
+}
+.last-text{
+    width: 80%;
+}
+.last-text p{
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #555;
+}
+#big-text{
+background-color: whitesmoke;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 120vh;
+}
+
+
+.apple-footer {
+  padding: 40px 20px;
+  background-color: #f5f5f7;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 20px;
+}
+
+.column {
+  flex: 1 1 180px;
+}
+
+.column h3, .column h4 {
+  margin-top: 0;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.column li {
+  margin-bottom: 8px;
+  color: #555;
+  cursor: pointer;
+}
+
+.column li:hover {
+  text-decoration: underline;
+}
+
+.footer-note {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 20px;
+}
+
+.footer-note a {
+  color: #06c;
+  text-decoration: none;
+}
+.footer-note a:hover {
+  text-decoration: underline;
+}
+
+.footer-legal {
+  max-width: 1100px;
+  margin: 20px auto;
+  font-size: 10px;
+  color: #888;
+  line-height: 1;
+}
+
+.footer-legal a {
+  color: #06c;
+  text-decoration: none;
+}
+.footer-legal a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #d2d2d7;
+  padding-top: 20px;
+}
+.footer-bottom a {
+  color: #06c;
+  text-decoration: none;
+}
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* .layout-one{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  color:#fff;
+   background-color: whitesmoke;
+   height: 110vh;
+}
+.layaot{
+ padding: 60px 20px;
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+.layaot h1{
+   font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 10px;
+} */
